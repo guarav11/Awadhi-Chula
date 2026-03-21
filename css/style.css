@@ -436,3 +436,10 @@
 .hero-header .shadow-sm {
     box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
 }
+
+.gallery-img {
+    height: 330px;        /* reduce size */
+    width: 100%;
+    object-fit: cover;    /* keeps image nicely cropped */
+    border-radius: 10px;
+}
